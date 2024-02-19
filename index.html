@@ -1,11 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BUS TICKET</title>
+    <!-- Daisy Ui & Tailwind  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style/style.css">
+
+
 </head>
-<body>
-    
+
+
+
+<body class="font-raleway md:container md:mx-auto ">
+    <!-- Nav Bar Section -->
+    <section class="nav-section md:container md:mx-auto">
+        <div class="navbar bg-base-100 pb-12 pt-10 text-base font-medium		 ">
+            <div class="navbar-start">
+                <div class=" dropdown ">
+
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box   w-52">
+                        <li><a><span>Home</span></a></li>
+                        <li><a>About</a></li>
+                        <li><a>Destination</a></li>
+                        <li><a>Search</a></li>
+
+                    </ul>
+                </div>
+                <a class="btn btn-ghost hover:bg-white text-4xl font-bold	">Buy-<span>Ticket</span></a>
+            </div>
+            <div class="navbar-center hidden lg:flex  ">
+                <ul class="  menu menu-horizontal  px-1">
+                    <li><a><span>Home</span></a></li>
+                    <li><a>About</a></li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
+
+                </ul>
+            </div>
+            <div class="navbar-end">
+
+                <a class="btn bg-green-400 bg-opacity-40 hover:bg-green-300 border border-green-500 text-yellow-5 00">Bus
+                    <img src="images/bus-icon.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <!-- banner mage section -->
+    <section class="md:container md:mx-auto">
+
+        <div class="bg-cover bg-center h-[723px]" style="background-image: url('images/banner.png');">
+            <div class="text-center text-white">
+                <h3 class="font-extrabold text-6xl	pt-40 ">End-to-End Travel with <br><span class="text-[#1DD100]">P
+                        Paribahan</span></h3>
+                <p class="text-base	font-normal pt-10	px-80 ">
+                    Travel seamlessly with P Paribahan! Experience top-notch service, comfortable rides, and reliable
+                    schedules. From booking to arrival, enjoy an end-to-end journey with us. Your satisfaction is our
+                    priority.</p>
+
+                <button
+                    class="btn font-extrabold	 bg-[#1DD100] hover:bg-yellow-500 border-yellow-500	 mt-10 sm:btn-sm md:btn-md lg:btn-lg">Buy
+                    Tickets</button>
+            </div>
+        </div>
+    </section>
+    <!-- best offer section -->
+    <section>
+        <h1 class="text-center font-extrabold	pt-14 text-5xl	"> Best Offer For You</h1>
+        <div class="grid grid-cols-2 gap-3 mt-10 mb-10">
+            <div class=" bg-[#FFBF0F] rounded-lg py-4 px-4  flex gap-96">
+                <div class=" ">
+                    <h3 class="text-start font-extrabold text-5xl">15% OFF</h3>
+                    <p class="text-start font-semibold text-lg">on your next purchase</p>
+                    <p class="text-start text-lg font-medium">use by January 2024</p>
+                </div>
+                <div class=" ">
+                    <h3 class="text-center font-bold text-3xl">NEW15</h3>
+                    <p class="text-center text-lg font-medium">Coupon Code</p>
+                </div>
+
+            </div>
+            <div class=" bg-[#F78C9C] rounded-lg py-4 px-4 flex gap-96">
+                <div class=" ">
+                    <h3 class="text-start font-extrabold text-5xl">20% OFF</h3>
+                    <p class="text-start font-semibold text-lg">on your next purchase</p>
+                    <p class="text-start text-lg font-medium">use by January 2024</p>
+                </div>
+
+                <div class=" ">
+                    <h3 class="text-center font-bold text-3xl">Couple 20</h3>
+                    <p class="text-center text-lg font-medium">Coupon Code</p>
+                </div>
+
+            </div>
+            
+        </div>
+        <h1 class="text-center font-extrabold	pt-14 text-5xl	"> Best Offer For You</h1>
+        <button class="flex justify-center mx-auto my-auto btn btn-outline border-yellow-500 text-yellow-500 font-extrabold mt-10 ">buy Now</button>
+    </section>
+
 </body>
+
 </html>

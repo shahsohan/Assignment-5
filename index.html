@@ -63,8 +63,7 @@
                     schedules. From booking to arrival, enjoy an end-to-end journey with us. Your satisfaction is our
                     priority.</p>
 
-                <button
-                    class="btn font-extrabold	 bg-[#1DD100] hover:bg-yellow-500 border-yellow-500	 mt-10 sm:btn-sm md:btn-md lg:btn-lg">Buy
+                <button class="btn font-extrabold	 bg-[#1DD100] hover:bg-yellow-500 border-yellow-500	 mt-10 sm:btn-sm md:btn-md lg:btn-lg">Buy
                     Tickets</button>
             </div>
         </div>
@@ -163,6 +162,132 @@
 
            
     </div>
+     <!-- select your section  -->
+     <div class="grid grid-cols-1 lg:grid-cols-2 mt-10 mb-10 ">
+        <div>
+            <div>
+                <h2>Select Your Seat</h2>
+            </div>
+            <div>
+                <div class="flex justify-between">
+                    <h4 class="flex items-center  gap-1"><img src="images/seat-green.png" alt="">Available</h4>
+                    <div>
+                        <h4 class="flex items-center gap-2">
+                            <img src="images/seat-green-filled.png" alt=""> Selected
+                        </h4>
+                        <br>
+                        <button class=" px-8"><img src="images/Vector.png" alt=""></button>
+                    </div>
+                </div>
+            </div>
+            <!-- seat section  -->
+
+
+            <div class="grid grid-cols-5 gap-3 space-y-4 mt-8">
+                <div id="btn"></div>
+
+               
+                <button id="A1" class="btn">A1</button>
+                <button id="A2" class="btn">A2</button>
+                <button id="A3" class="btn">A3</button>
+                <button id="A4" class="btn">A4</button>
+                <button>B</button>
+                <button id="B1" class="btn">B1</button>
+                <button id="B2" class="btn">B2</button>
+                <button id="B3" class="btn">B3</button>
+                <button id="B4" class="btn">B4</button>
+                <button>C</button>
+                <button id="C1" class="btn">C1</button>
+                <button id="C2" class="btn">C2</button>
+                <button id="C3" class="btn">C3</button>
+                <button id="C4" class="btn">C4</button>
+                <button>D</button>
+                <button id="D1" class="btn">D1</button>
+                <button id="D2" class="btn">D2</button>
+                <button id="D3" class="btn">D3</button>
+                <button id="D4" class="btn">D4</button>
+                <button>E</button>
+                <button id="E1" class="btn">E1</button>
+                <button id="E2" class="btn">E2</button>
+                <button id="E3" class="btn">E3</button>
+                <button id="E4" class="btn">E4</button>
+                <button>F</button>
+                <button id="F1" class="btn">F1</button>
+                <button id="F2" class="btn">F2</button>
+                <button id="F3" class="btn">F3</button>
+                <button id="F4" class="btn">F4</button>
+                <button>G</button>
+                <button id="G1" class="btn">G1</button>
+                <button id="G2" class="btn">G2</button>
+                <button id="G3" class="btn">G3</button>
+                <button id="G4" class="btn">G4</button>
+                <button>H</button>
+                <button id="H1" class="btn">H1</button>
+                <button id="H2" class="btn">H2</button>
+                <button id="H3" class="btn">H3</button>
+                <button id="H4" class="btn">H4</button>
+                <button>I</button>
+                <button id="I2" class="btn">I2</button>
+                <button id="I1" class="btn">I1</button>
+                <button id="I3" class="btn">I3</button>
+                <button id="I4" class="btn">I4</button>
+                <button>J</button>
+                <button id="J1" class="btn">J1</button>
+                <button id="J2" class="btn">J2</button>
+                <button id="J3" class="btn">J3</button>
+                <button id="J4" class="btn">J4</button>
+
+            </div>
+        </div>
+        <!-- next section  -->
+        <d iv class="ml-12">
+            <div>
+                <h2 class="text-2xl font-raleway mb-12">Select Your Seat</h2>
+            </div>
+            <div id="increase-div-number" class="grid grid-cols-3 text-xl font-raleway bg-[#F7F8F8] p-4">
+                <h2 class="font-bold">Seat<span id="increase-number"
+                        class="bg-[#1dd100] text-white px-2 rounded-lg"><sup id="seetIncrement">0</sup></span>
+                </h2>
+                <h2 class="font-bold">Class</h2>
+                <h2 class="font-bold">Price</h2>
+                <!-- seat status -->
+                <div class="mt-3 text-[20px]" id="seetName"></div>
+                <div class="mt-3 text-[20px]" id="classNmae"></div>
+                <div class="mt-3 text-[20px]" id="seatPrice"></div>
+                <div class="divider col-span-3"></div>
+
+
+                <!-- seat, class and price   -->
+
+                <div class="divider col-span-3"></div>
+                <div class="flex gap-64 col-span-3">
+                    <h1 class="font-medium font-raleway justify-start">Total Price</h1>
+                    <h1 class="text-2xl">BDT <span class="text-2xl" id="totalprice">0</span></h1>
+                </div>
+                <div class="flex bg-[#FFFFFF]  mt-12 gap-4 items-cente">
+                    <!-- coupon card section  -->
+                    <input class="px-6 outline-none  bg-[#fffff]" type="text" placeholder="Coupon" id="coupon">
+                    <button class="btns px-6 py-3 rounded-md bg-[#1dd100] text-white"
+                        onclick="applyCoupon()">Apply</button>
+                </div>
+            </div>
+            <!-- next section  -->
+            <div class="flex flex-col gap-4 mt-12">
+                <label class="font-bold font-raleway" for="">Enter Your Number </label>
+                <input class="px-4 py-3" type="text" placeholder="Enter Your Name">
+                <label class="font-bold font-raleway" for="">Enter Your phone Number</label>
+                <input class="px-4 py-3" type="number" name="" id="" placeholder="Enter Your Phone number">
+                <label class="font-bold font-raleway" for="">Email ID</label>
+                <input class="px-4 py-3" type="email" name="" id="" placeholder="Enter Your Email">
+                <button class="bg-[#1dd100] mx-32 py-3 rounded-lg font-bold text-white font-raleway text-xl"
+                    id="nextbtn">Next</button>
+                <div class="space-x-24 items-center text-center">
+                    <a class="text-blue-600 underline" href="">Terms and Condition</a>
+                    <a class="text-blue-600 underline" href="">Cancellation policy</a>
+                </div>
+            </div>
+        </div>
+
 </section>
 </body>
 

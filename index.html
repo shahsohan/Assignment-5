@@ -17,7 +17,7 @@
 
 
 
-<body class="font-raleway md:container md:mx-auto ">
+<body class="font-raleway  ">
     <!-- Nav Bar Section -->
     <section class="nav-section md:container md:mx-auto">
         <div class="navbar bg-base-100 pb-12 pt-10 text-base font-medium		 ">
@@ -52,7 +52,7 @@
         </div>
     </section>
     <!-- banner mage section -->
-    <section class="md:container md:mx-auto">
+    <section class="md:container md:mx-auto ">
 
         <div class="bg-cover bg-center h-[723px]" style="background-image: url('images/banner.png');">
             <div class="text-center text-white">
@@ -69,7 +69,7 @@
         </div>
     </section>
     <!-- best offer section -->
-    <section>
+    <section class="md:container md:mx-auto">
         <h1 class="text-center font-extrabold	pt-14 text-5xl	"> Best Offer For You</h1>
         <div class="grid grid-cols-2 gap-3 mt-10 mb-10">
             <div class=" bg-[#FFBF0F] rounded-lg py-4 px-4  flex gap-96">
@@ -102,7 +102,7 @@
         <h1 class="text-center font-extrabold	pt-14 text-5xl	"> Best Offer For You</h1>
         <button class="flex justify-center mx-auto my-auto btn btn-outline border-yellow-500 text-yellow-500 font-extrabold mt-10 ">See All Offers</button>
     </section>
-<section>
+<section class="md:container md:mx-auto">
     <div class="container md:px-20">
         <!-- P.H Paribahan section  -->
         <div class="border-t-2 mt-24 border-[#1dd100] rounded-3xl px-12">
@@ -166,13 +166,13 @@
      <div class="grid grid-cols-1 lg:grid-cols-2 mt-10 mb-10 ">
         <div>
             <div>
-                <h2>Select Your Seat</h2>
+                <h2 class="text-2xl font-raleway font-bold">Select Your Seat</h2>
             </div>
             <div>
                 <div class="flex justify-between">
-                    <h4 class="flex items-center  gap-1"><img src="images/seat-green.png" alt="">Available</h4>
+                    <h4 class="flex items-center font-semibold gap-1"><img src="images/seat-green.png" alt="">Available</h4>
                     <div>
-                        <h4 class="flex items-center gap-2">
+                        <h4 class="flex items-center gap-2 font-semibold text-yellow-400">
                             <img src="images/seat-green-filled.png" alt=""> Selected
                         </h4>
                         <br>
@@ -242,7 +242,7 @@
         <!-- next section  -->
         <d iv class="ml-12">
             <div>
-                <h2 class="text-2xl font-raleway mb-12">Select Your Seat</h2>
+                <h2 class="text-2xl font-raleway font-bold mb-12">Select Your Seat</h2>
             </div>
             <div id="increase-div-number" class="grid grid-cols-3 text-xl font-raleway bg-[#F7F8F8] p-4">
                 <h2 class="font-bold">Seat<span id="increase-number"
@@ -287,8 +287,41 @@
                 </div>
             </div>
         </div>
-
+        
 </section>
+
+<!-- footer section  -->
+<footer class="bg-black h-[40vh]">
+    <div class="flex justify-around pt-24 text-white items-center">
+        <div>
+            <h1 class="text-4xl font-extrabold font-raleway">Buy-Ticket</h1>
+            <p>Buy-Ticket is a digital platform to make your daily commuting better.</p>
+        </div>
+        <div>
+            <h4>Download our app</h4>
+            <div class="flex items-center p-2 justify-center mt-6 border-2 gap-2">
+                <img src="images/playstore.png" alt="">
+                <div>
+                    <h1 class="uppercase">Get in on</h1>
+                    <h1 class="text-xl font-inter font-bold">Google Play</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="divider border-dashed"></div>
+    <div class="flex justify-around text-white">
+        <div>
+            <h5>
+                @all rights reserved, Buy-Ticket service limited.2024
+            </h5>
+        </div>
+        <div class="space-x-12">
+            <a href="">Terms & Condition</a><a href="">Return & refund policy</a><a href="">Privacy policy</a>
+        </div>
+    </div>
+</footer>
+
+<script src="jsCode.js"></script>
 </body>
 
 </html>
